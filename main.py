@@ -9,8 +9,6 @@ filename = input('What is your tex or txt file name?\n')
 outputorfile = input('Do you want to make it a file or just output?[y]or[n]\n')
 cited = []
 # find all in-text citation of equations
-cited = []
-# find all in-text citation of equations
 
 for idx, line in enumerate(open(filename)):
   if idx <= 2500:
